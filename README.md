@@ -7,5 +7,6 @@ Checks the wifi upload and download speed every time the set amount is reached o
   - Make sure the time is imported in seconds!<br>
   - You can not open the excel sheet while the code is running! (if you need to see copy it)<br>
   - Measured in MB/s
+  - To start, you need to install the librarys in requirements.txt but after just launch the .py file!
 <br><br>
 NOTE: This was just a small project I dont know if I plan on expanding it at all!
