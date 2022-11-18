@@ -99,3 +99,4 @@ while True:
     ws.append([system_time, download, upload]) #Every time it loops adds a new line with the time of day and speeds
     wb.save(FILE_NAME) #Creates if not already made and saves the file
     time.sleep(looptime) #How long before it loops again (set with the integer value)
+# https://github.com/etahn-git/SPEEDTEST-SHEETS
