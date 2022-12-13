@@ -51,7 +51,7 @@ while not valid:
         print(bcolors.OKGREEN + '------------------------------------------------ Ready! ------------------------------------------------' + bcolors.ENDC)
         print(bcolors.WARNING + 'How many x seconds should it wait to check & log again? !IN SECONDS!' + bcolors.ENDC) 
         print(bcolors.WARNING + 'NOTE: the speedtest takes 10-20 seconds onece activated every x seconds') #Every time the set amount of seconds is reached it takes a bit of time for the speedtest to load just like on a speedtest website (speedtest.net)
-        print(f'{bcolors.OKCYAN}Time converter: {bcolors.UNDERLINE}https://etahn.ml/time-converter' + bcolors.ENDC)
+        print(f'{bcolors.OKCYAN}Time converter: {bcolors.UNDERLINE}https://www.etahn.ml/time-converter' + bcolors.ENDC)
         looptime = int(input(bcolors.OKBLUE + bcolors.BOLD + 'Input: x= ' + bcolors.ENDC)) #Integer Input
         valid = True
     except ValueError:
